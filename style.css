@@ -1,0 +1,101 @@
+body{
+    background-image:linear-gradient(white, gray,black  ) ;
+    height: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+    margin:100px auto;
+    text-align: center;
+    width: 300px;
+    height: 650px;
+    border-radius: 20px;
+    background-color:rgb(149, 149, 149) ;/*#484b4c*/
+    box-shadow: 25px 25px 250px;
+}
+
+.porf_img{
+    margin-top:10px ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 30px;
+    transition: all 1s;
+}
+.name:hover{
+    transform: scale(1.2,2);
+}
+
+.me{
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 2s;
+}
+.me:hover{
+    transform: scale(1.5);
+}
+
+#br{
+    height: 1px;
+}
+
+.desc{
+    
+    background-color: white;
+    width: 100%;
+    height:60% ;
+    border-radius:20px ;
+}
+
+.icon_bar{
+    background-image: linear-gradient(to left ,white,lightgray);
+    display: block;
+    height: 50px;
+     padding:2px ;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+}
+
+.icon{
+    width:50px ;
+    border-radius: 10px;
+}
+
+#insta_icon{
+    transition:all 2S ;
+}
+
+#insta_icon:hover{
+    transform: translate(-42px,60px) ;
+}
+
+#tel_icon{
+    transition: all 1.5s;
+}
+
+#tel_icon:hover{
+    transform: translate(50px,100px) ;
+}
+
+#my{
+    height: 6px;
+    font-size: large;
+}
+#idins{
+    height: 3px;
+    margin: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
+#idtel{
+    height: 3px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
